@@ -44,12 +44,12 @@ android {
     }
 
     buildTypes.all {
-        buildConfigField(
-            "String",
-            "DEFAULT_WEB_URL",
-            "\"https://bamze1970.github.io/investment-forecast-sync-v5/\""
-        )
-    }
+    buildConfigField(
+        "String",
+        "DEFAULT_WEB_URL",
+        "\"https://bamze1970.github.io/investment-forecast-sync-v5/\""
+    )
+}
 
     packaging {
         resources {
@@ -75,4 +75,3 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
-``
