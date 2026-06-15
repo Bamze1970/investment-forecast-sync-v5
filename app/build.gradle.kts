@@ -41,12 +41,12 @@ android {
     }
 
     buildTypes.all {
-        buildConfigField(
-            "String",
-            "DEFAULT_WEB_URL",
-            '"https://bamze1970.github.io/investment-forecast-sync-v3/"'
-        )
-    }
+    buildConfigField(
+        "String",
+        "DEFAULT_WEB_URL",
+        "\"https://bamze1970.github.io/investment-forecast-sync-v5/\""
+    )
+}
 
     packaging {
         resources {
